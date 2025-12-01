@@ -1,0 +1,169 @@
+@font-face {
+
+    font-family: "StoryFont";
+    src: url("../../font/Story.ttf") format("truetype");
+
+}
+
+@font-face {
+
+    font-family: "PermFont";
+    src: url("../../font/Perm.ttf") format("truetype");
+
+}
+
+body {
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4efff;
+    color: #000000;
+
+}
+
+.storyContainer {
+
+    background-color: #ffffff;
+    border-radius: 16px;
+    border: 4px solid #c9b3ff;
+    box-shadow: 0 6px 16px #00000026;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    align-items: stretch;
+    box-sizing: border-box;
+    min-height: 620px;
+
+}
+
+.imageWrapper {
+
+    flex: 0 0 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 24px;
+    border-right: 2px solid #c9b3ff;
+    
+}
+
+.imageWrapper img {
+
+    max-width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.storyText {
+
+    flex: 1;
+    padding-left: 24px;
+
+}
+
+.subTitle {
+
+    font-style: italic;
+
+}
+
+button {
+
+    padding: 8px 16px;
+    margin-right: 8px;
+    border-radius: 8px;
+    border: 1px solid #333333;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 14px;
+
+}
+
+h1 {
+
+    font-size: 32px;
+    font-family: "StoryFont", Arial, Helvetica, sans-serif;
+
+}
+
+h2 {
+
+    font-family: "StoryFont", Arial, Helvetica, sans-serif;
+
+}
+
+.pageHeader {
+
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #e2d4ff;
+
+}
+
+.pageTitle {
+
+    margin: 0 0 10px 0;
+    font-size: 28px;
+    color: #4a2c82;
+    font-family: "PermFont", Arial, Helvetica, sans-serif;
+
+}
+
+.menuBar {
+
+    display: inline-block;
+
+}
+
+.menuList {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+
+}
+
+.menuList li {
+
+    cursor: default;
+    color: #000000;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "PermFont", Arial, Helvetica, sans-serif;
+
+}
+
+.pageContent {
+
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+
+}
+
+.titleContainer {
+
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: #b799ff;
+    border-radius: 24px;
+    border: 6px solid #8b5cf6;
+    box-shadow: 0 8px 20px #00000033;
+    text-align: center;
+    padding: 40px 20px;
+    box-sizing: border-box;
+
+}
+
+#titlePhoto {
+
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 16px;
+
+}
